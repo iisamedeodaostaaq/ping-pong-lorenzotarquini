@@ -55,6 +55,7 @@ def draw():
          
     if rax == y_pos_rect_1 - 25:
         y_dir = y_dir * (-1) 
-        fill(255,0,0) 
+        fill(255,0,0)
+        
         
     
