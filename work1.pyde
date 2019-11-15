@@ -1,4 +1,4 @@
-
+## Prof. Non ci sono commenti: codice non manutenimbile
 xpos = 0 
 ypos = 0
 rax = 50
@@ -22,6 +22,8 @@ def setup():
 def keyPressed():
     global x_pos_rect_2,x_pos_rect_1
     
+## Prof. Fai i calcoli con riferimenti alle variabili piuttosto che ai numeri
+## Prof. Le racchette escono sul lato destro di qualche pixel
     if keyCode == LEFT:
         if(x_pos_rect_1 >= 2):
             x_pos_rect_1 -= 10
@@ -65,6 +67,7 @@ def draw():
         y_dir = y_dir * (-1) 
         down_score +=1
    
+## Prof. Le scritte finiscono fuori dello schermo
     if down_score == 20:
         clear()
         noLoop()
